@@ -27,3 +27,25 @@
     height: 35px;
     border-radius: 20px;
 }
+
+.sidebar_searchContainer >.searchIcon{
+    color: gray;
+    padding: 10px;
+} 
+
+.sidebar_searchContainer > input{
+    border: none;
+    margin-left: 10px;
+}
+
+.sidebar_headerRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.sidebar_headerRight >.searchIcon{
+    margin-right: 2vw;
+    font-size: 24px !important;
+}
